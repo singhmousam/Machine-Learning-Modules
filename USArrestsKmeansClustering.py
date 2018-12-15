@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-USArrests = pd.read_csv("/home/scientist/Mousam_Directory/Machine_Learning/day8/USArrests.csv",index_col=0)
+USArrests = pd.read_csv("-----path to file-------/USArrests.csv",index_col=0)
 USArrests.head()
 
 from sklearn.preprocessing import StandardScaler
